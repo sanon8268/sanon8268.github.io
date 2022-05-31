@@ -1,0 +1,149 @@
+body {
+    color: black;
+    background-image: url(back.jpg);
+    background-size: 1500px;
+    height: 977px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+
+}
+
+.divi {
+    border: 2px solid rgb(23, 74, 44);
+    border-radius: 47px;
+    background-color: rgb(23, 74, 44);
+    padding-top: 2px;
+    padding-bottom: 0px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.heade {
+    position: sticky;
+    top: 5px;
+}
+
+#div1 {
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+
+}
+
+#div2 {
+    display: block;
+    width: 70%;
+    position: relative;
+    left: 246px;
+    top: 1px;
+}
+
+#div3 {
+    display: inline-block;
+    position: absolute;
+    right: 47px;
+    top: 10px;
+}
+
+#div2 li a {
+    text-decoration: none;
+    padding-right: 21px;
+    padding-left: 0px;
+    color: white;
+    font-size: 17px;
+}
+
+#div2 li {
+    list-style: none;
+    display: inline-block;
+    margin: auto;
+    padding: 0px 0px;
+}
+
+#div2 li a:hover,
+#div2 li a.active {
+    text-decoration: underline;
+    font-family: 'Radio Canada', sans-serif;
+    font-weight: 300px;
+
+
+}
+
+#div1 img {
+    width: 93px;
+}
+
+#div1 div {
+    text-align: center;
+    font-family: 'Baloo Chettan 2', cursive;
+    float: right;
+    margin-top: 3px;
+    margin-right: 10px;
+    margin-left: -11px;
+    color: white;
+    font-size: 29px;
+    cursor: pointer;
+
+}
+
+#div3 button:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    margin-top: 4px;
+    margin-bottom: 6px;
+    padding: 6px 9px 6px 12px;
+    font-size: 13px;
+    background-color: black;
+    color: white;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 9px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.btn:hover {
+    background-color: rgb(121, 117, 117);
+    color: rgb(255, 255, 255);
+}
+
+#conti {
+    color: white;
+    padding: 7px 5px 50px 22px;
+    margin: 60px 743px 22px 30px;
+    border: 1px solid #00000047;
+    border-radius: 45px;
+    background-color: #00000047;
+}
+
+.formh input {
+    border: 1px solid black;
+    margin: 6px 6px;
+    padding: 5px 8px;
+    font-size: 15px;
+    display: block;
+    width: 257px;
+    border-radius: 6px;
+}
+
+.cont h1{
+    font-size: 35px;
+    margin: 16px 5px;
+}
+
+.cont button {
+    text-align: center;
+    width: 280px;
+    margin: 16px 3px;
+    padding: 3px 2px;
+    font-size: 18px;
+    background-color: aqua;
+    border-radius: 8px;
+    font-family: 'Kanit', sans-serif;
+    }
+
+    .cont button:hover{
+        cursor: pointer;
+        background-color: rgb(145, 255, 218);
+    }
